@@ -1,14 +1,15 @@
 package inheritance;
 
-class Vehicles {
-    protected String brand = "Ford";
+class Android {
+    protected String brand = "mi";
+
     public void honk(){
-        System.out.println("Honk honk!");
+        System.out.println("Just for fans!");
     }
 }
 
-class Car extends Vehicles {
-    private String modelName = "Mustang";
+class Car extends Android {
+    private String modelName = "poco x2";
 
     public static void main(String[] args) {
 
