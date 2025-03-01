@@ -1,6 +1,6 @@
 package conversion;
 
-public class Main {
+public class Implicit {
 
     public static void main(String[] args) {
         int num = 10;
